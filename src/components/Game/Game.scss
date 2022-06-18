@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-color: rgb(78, 75, 75);
+}
+
+.start__button {
+  width: 200px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: grey;
+
+  transition: background-color 0.3s;
+
+
+  &:hover {
+    background-color: darkgray;
+  }
+}

@@ -1,0 +1,28 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 300px;
+  height: 300px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  color: silver;
+  background-color: rgb(63, 62, 62);
+  border: 3px solid purple;
+  font-size: 80px;
+  cursor: pointer;
+
+  transition: color 0.3s, background-color 0.3s;
+
+  &:hover {
+    color: black;
+    background-color: grey;
+  }
+}
